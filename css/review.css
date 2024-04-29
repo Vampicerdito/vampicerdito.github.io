@@ -1,20 +1,20 @@
 #reviews{
     display: flex;
-    padding: 7%;
+    flex-direction: column;
     justify-content: baseline;
-    align-items: center;
+    padding: 7%;
     background: linear-gradient(to left, #fa330600, #fa3306c0);
 }
 
-#reviews h2{
-    transform: rotate(-90deg);
+.review-elements{
+    display: flex;
 }
 
 .reviw-item{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: auto;
     padding: 3%;
     border-radius: 20px;
@@ -25,33 +25,51 @@
 
 .reviw-item:hover{
     transition: 0.3s;
-    background: linear-gradient(to left, #232A34, #242934, #fa3306c0 160%);
-    box-shadow: 3PX 0px 6px #0002;
     cursor: pointer;
+    box-shadow: 0 0 20px #fa3306cc;
+    border-color: #fa3306c0;
+    transform: scale(1.04);
 }
 
-.reviw-item img{
-    height: 120px;
-    width: 120px;
-    margin: auto;
+.reviw-img {
+    position: relative;
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
     border-radius: 50%;
-    border: 4px solid #FCFDFE;
-    object-fit:cover;
+    transform: translateY(-50%);
+    background-size: cover;
+    background-position: center;
 }
 
-.reviw-item h4{
+.reviw-img::before {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border: .5rem solid #e6442091;
+}
+
+.reviw-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviw-info h4{
     font-weight: lighter;
     font-size: 40px;
     margin: 2% 0;
     margin-top: 7%;
 }
 
-.reviw-item h5{
+.reviw-info h5{
     font-family: Karla;
     margin: 2% 0;
 }
 
-.reviw-item p{
+.reviw-info p{
     font-style: italic;
     text-align: center;
 }
