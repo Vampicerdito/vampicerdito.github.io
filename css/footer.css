@@ -1,0 +1,17 @@
+footer{
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+footer div{
+    background-color: #FA3406;
+    padding: 0.2px;
+    height: 100%;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+}

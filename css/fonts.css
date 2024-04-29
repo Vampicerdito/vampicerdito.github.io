@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Karla';
+    src: url("../fonts/Karla/static/Karla-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'Karla Bold';
+    src: url("../fonts/Karla/static/Karla-Bold.ttf") format("truetype");
+    font-style: bold;
+}
+
+@font-face{
+    font-family: 'Karantina';
+    src: url("../fonts/Karantina/Karantina-Regular.ttf") format("truetype");
+}

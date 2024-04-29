@@ -1,0 +1,90 @@
+#contact{
+    width: auto;
+    margin: 7%;
+    padding: 1% 3% 1% 3%;
+    background: linear-gradient(to bottom, #0D0D14, #0E0F15);
+    align-items: center;
+    box-shadow: 0 4px 8px #0002;
+    border-radius: 25px;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 5em; ;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#contact label{
+    font-family: 'Karantina', sans-serif;
+    color:#FA3406;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 2% 0 2% 0;
+}
+
+.formulario{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.left-section-contact img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale();
+}
+
+.social img{
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    filter: invert(31%) sepia(86%) saturate(3914%) hue-rotate(356deg) brightness(96%) contrast(105%);
+}
+
+.social a{
+    content: "";
+    position: relative;
+    height: 50%;
+    width: 50%;
+    padding: 3% 5% 0 5%;
+}
+
+.left-section-contact{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 40%;
+}
+
+.rigtht-section-contact{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 60%;
+}
+
+.rigtht-section-contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.rigtht-section-contact textarea, input{
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #131316;
+    color: #FCFDFE;
+    border: 2px solid #FA3406;
+    resize: none;
+    max-lines: 6;
+}
+
+.rigtht-section-contact textarea::placeholder, input::placeholder{
+    font-family: Karla;
+}

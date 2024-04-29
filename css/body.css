@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+    background: url("/img/galaxia-con-muchas-estrellas.png"),linear-gradient(to bottom, #080F18, #081420, #00010B);
+    background-blend-mode: color-dodge;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h4, h5, h6{
+    font-family: 'Karantina', sans-serif;
+    color:#FCFDFE;
+    font-weight: lighter;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+h2{
+    font-size: 48px;
+    border-bottom: 4px solid #FCFDFE;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+h3{
+    font-family: 'Karantina', sans-serif;
+    color:#FA3406;
+    font-size: 3rem;
+    font-weight: 300;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.4;
+    color:#FCFDFE;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+a{
+    color: #F3732C;
+    font-style: italic;
+    text-decoration: none;
+}
