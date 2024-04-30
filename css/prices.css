@@ -1,17 +1,25 @@
 #prices{
-    display: grid;
     margin: 7%;
     align-items:center;
-    justify-items: baseline;
+    display: grid;
+    justify-content: center;
 }
 
-#prices button {
-    display: block;
-    margin: 2% auto;
-}
 
-#prices h2{
-    margin: 0 1%;
+.card {
+    width: 35%;
+    background-color: #333;
+    color: #FCFDFE; 
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    margin-top: 5%;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
 .tarjetas{
@@ -30,10 +38,12 @@
     filter: invert(31%) sepia(86%) saturate(3914%) hue-rotate(356deg) brightness(96%) contrast(105%);
 }
 
-.price-end h4{
-    font-size: 70px;
-    margin: 0;
-    padding: 0;
+.tarjetas h2{
+    border: none;
+}
+
+.price-end h5{
+    border: none;
 }
 
 .icon img{
@@ -42,41 +52,10 @@
     margin: 1%;
     filter: invert(31%) sepia(86%) saturate(3914%) hue-rotate(356deg) brightness(96%) contrast(105%);
 }
-.card {
-    width: 35%;
-    background-color: #333;
-    color: #FCFDFE; 
-    position: relative;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 2%;
-    margin-top: 5%;
-    background: rgba(255,255,255,.05);
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
-    backdrop-filter: blur(10px);
-    transition: all 0.2s;
-    cursor: pointer;
-}
 
 .card:hover {
     background: linear-gradient(to bottom, #232A34, #242934);
     transform: scale(1.04) rotate(1deg);
-}
-
-.card h2{
-    border: 0;
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-    padding-bottom: 5%;
-}
-
-.card02 h2{
-    border: 0;
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-    padding-bottom: 5%;
 }
 
 .icon {
@@ -90,4 +69,8 @@
 
 .price-end span{
     width: 40%;
+}
+
+#prices button{
+    margin: 2% auto;
 }

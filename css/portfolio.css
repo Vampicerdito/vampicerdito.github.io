@@ -1,25 +1,15 @@
 #portfolio {
     display: grid;
     margin: 7%;
-    align-items: center;
-    justify-items: baseline;
     justify-content: center;
 }
 
-#portfolio h2{
-    margin-bottom: 1%;
-}
-
-#portfolio p{
-    margin-bottom: 5%;
+#portfolio button{
+    margin: 2% auto;
 }
 
 .Elementos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-button{
-    margin: 2% auto;
 }

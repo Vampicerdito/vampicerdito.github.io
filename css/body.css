@@ -13,48 +13,80 @@ body {
     scroll-behavior: smooth;
 }
 
-h1, h2, h4, h5, h6{
+h1 {
     font-family: 'Karantina', sans-serif;
     color:#FCFDFE;
     font-weight: lighter;
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Chrome, Safari, and Opera */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
 }
 
-h2{
-    font-size: 48px;
+h6{
+    font-family: 'Karantina', sans-serif;
+    color:#FCFDFE;
+    font-weight: lighter;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h5{
+    font-family: 'Karantina', sans-serif;
+    color:#FCFDFE;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
     border-bottom: 4px solid #FCFDFE;
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Chrome, Safari, and Opera */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    font-weight: lighter;
 }
 
 h3{
     font-family: 'Karantina', sans-serif;
+    font-weight: lighter;
     color:#FA3406;
-    font-size: 3rem;
     font-weight: 300;
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Chrome, Safari, and Opera */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    font-size: 2em;
+    margin: 0;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+h4 {
+    font-family: 'Karantina', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 1.5em;
 }
 
 p{
     font-family: 'Karla', sans-serif;
     line-height: 1.4;
     color:#FCFDFE;
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Chrome, Safari, and Opera */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 a{
     color: #F3732C;
     font-style: italic;
     text-decoration: none;
+}
+
+button {
+    background-color: #F3732C;
+    color: #FCFDFE;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-family: 'Karantina', sans-serif;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FA3406; /* Cambia el color al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el mouse */
 }
