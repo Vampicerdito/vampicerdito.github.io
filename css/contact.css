@@ -3,6 +3,7 @@
     background: linear-gradient(to bottom, #0D0D14, #0E0F15);
     box-shadow: 0 4px 8px #0002;
     border-radius: 25px;
+    padding: 2%
 }
 
 #contact h2{
