@@ -1,13 +1,36 @@
 .navbar {
     position: fixed;
     display: flex;
-    font-family:'Karla', Courier;
-    top: 0; /* Lo posiciona en la parte superior */
-    width: 100%; /* Ocupa todo el ancho del documento */
-    z-index: 999; /* Asegura que el menú se muestre por encima de otros elementos */
-    background-color: #080F18e1;  /*Color de fondo del menú */
+    font-family:'Karla';
+    top: 0;
+    width: 100%;
+    z-index: 999;
     align-items: center;
     justify-content: space-around;
+    background-color: transparent;
+    height: 15%;
+    transition: 0.5s ease;
+}
+
+.navbar.active{
+    position: fixed;
+    display: flex;
+    font-family:'Karla';
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    transition: 0.5s ease;
+    background-color: #232a34;
+    height: 10%;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 
 /* Estilos de los enlaces del menú */
@@ -22,15 +45,9 @@
 }
 
 /* Cambio de color al pasar el mouse */
-.navbar a:hover {
+.navbar li:hover {
     border-bottom: 4px solid #FA3406;
     transition: 80ms;
-}
-
-/* Estilo para el elemento activo/enfocado */
-.navbar a.active {
-    border-bottom: 4px solid #FA3406;
-    color: white;
 }
 
 /* Estilos para la imagen y el texto en la barra de menú */

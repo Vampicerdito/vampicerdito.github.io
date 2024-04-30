@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link name="desription" content="Portafolio de un freelancer de diseño, desarrollo y edición con más de 5 años de experiencia en el medio">
     <link name="keywords" content="freelancer, diseño, desarrollo, web, edición, gráfica, trabajo, creativo, barato, experiencia">
@@ -42,6 +43,21 @@
     <link rel="stylesheet" href="css\footer.css">
     <link rel="stylesheet" href="css\review.css">
     <link rel="stylesheet" href="css\separator.css">
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const element = document.querySelector('.navbar');
+            const elementPosition = element.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (elementPosition < windowHeight) {
+                element.classList.add('active');
+                }
+            else if (elementPosition == 0) {
+            element.classList.remove('active');
+            }
+        });
+    </script>
     <title>Vamplancer - Freelancer Diseño y Desarrollo</title>
 </head>
     <body>
@@ -52,11 +68,13 @@
                     <span>VAMPLANCER</span>
                 </div>
                 <nav class="menu">
-                    <a href="#header">Inicio</a>
-                    <a href="#portfolio">Portafolio</a>
-                    <a href="#prices">Precios</a>
-                    <a href="#reviews">Reseñas</a>
-                    <a href="#contact">Contactar</a>
+                    <ul class="menu-items">
+                        <li><a href="#header">Inicio</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#prices">Precios</a></li>
+                        <li><a href="#reviews">Reseñas</a></li>
+                        <li><a href="#contact">Contactar</a></li>
+                    </ul>
                 </nav>
             </div>
         </nav>

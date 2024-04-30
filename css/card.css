@@ -39,10 +39,4 @@
 .portafolio-item-body button {
     padding: 2px 70px;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-.portafolio-item-body button:hover {
-    background-color: #E64420;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }

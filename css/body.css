@@ -1,6 +1,5 @@
 body {
     padding: 0;
-    padding-top: 5%;
     margin: 0;
     background: url("/img/galaxia-con-muchas-estrellas.png"),linear-gradient(to bottom, #080F18, #081420, #00010B);
     background-blend-mode: color-dodge;
@@ -81,6 +80,7 @@ button {
     border-radius: 50px; 
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-weight: lighter;
     font-family: 'Karantina', sans-serif;
     font-size: 1.5em;
     transition: background-color 0.3s;
