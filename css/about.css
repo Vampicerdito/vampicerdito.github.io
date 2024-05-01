@@ -59,3 +59,21 @@
 .about--hab_icon{
     width: 38px;
 }
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    .about--content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about--text{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .about--hab{
+        width: 100%;
+    }
+}

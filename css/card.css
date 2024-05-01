@@ -16,6 +16,7 @@
     height: 40vh;
     background-size: 35vw;
     background-position: center;
+    background-size: cover;
     transition: all 0.5s;
 }
 
@@ -39,4 +40,11 @@
 .portafolio-item-body button {
     padding: 2px 70px;
     border-radius: 5px;
+}
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    .portfolio-item {
+        width: 100%;
+    }
 }

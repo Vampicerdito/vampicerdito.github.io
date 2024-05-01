@@ -25,3 +25,27 @@
     width: 100%;
     filter: drop-shadow(0px 0px 8px #F3732C);
 }
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    #header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .right-section{
+        margin: 25% 0 0 0;
+        width: 100%;
+    }
+
+    .left-section{
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .right-section img {
+        width: 100%;
+        filter: drop-shadow(0px 0px 8px #F3732C);
+    }
+}

@@ -73,3 +73,10 @@
 #prices button{
     margin: 2% auto;
 }
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    .card{
+        width: 100%;
+    }
+}

@@ -82,3 +82,17 @@
 .rigtht-section-contact button {
     margin-top: 2%;
 }
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    .formulario{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-section-contact{
+        width: 100%;
+    }
+    .rigtht-section-contact{
+        width: 100%;
+    }
+}

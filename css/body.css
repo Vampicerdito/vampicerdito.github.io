@@ -90,3 +90,36 @@ button:hover {
     background-color: #FA3406; /* Cambia el color al pasar el mouse */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el mouse */
 }
+
+/*Para Smartphones*/
+@media screen and (max-device-width : 480px) {
+    h1 {
+        font-family: 'Karantina', sans-serif;
+        color:#FCFDFE;
+        font-weight: lighter;
+        font-size: 5em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2, h5{
+        font-family: 'Karantina', sans-serif;
+        color:#FCFDFE;
+        font-size: 3em;
+        margin: 0;
+        padding: 0;
+        border-bottom: 4px solid #FCFDFE;
+        font-weight: lighter;
+    }
+    
+    h3{
+        font-family: 'Karantina', sans-serif;
+        font-weight: lighter;
+        color:#FA3406;
+        font-weight: 300;
+        font-size: 1.8em;
+        margin: 0;
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+    }
+}
