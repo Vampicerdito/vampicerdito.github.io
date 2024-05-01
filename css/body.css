@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     color:#FCFDFE;
     font-weight: lighter;
     font-size: 6em;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h6{
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     color:#FCFDFE;
     font-weight: lighter;
     font-size: 3em;
@@ -31,7 +31,7 @@ h6{
 }
 
 h2, h5{
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     color:#FCFDFE;
     font-size: 4em;
     margin: 0;
@@ -41,7 +41,7 @@ h2, h5{
 }
 
 h3{
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     font-weight: lighter;
     color:#FA3406;
     font-weight: 300;
@@ -52,7 +52,7 @@ h3{
 }
 
 h4 {
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     font-weight: lighter;
     margin: 0;
     padding: 0;
@@ -61,12 +61,13 @@ h4 {
 }
 
 p{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla';
     line-height: 1.4;
     color:#FCFDFE;
 }
 
 a{
+    font-family: 'Karla';
     color: #F3732C;
     font-style: italic;
     text-decoration: none;
@@ -81,7 +82,7 @@ button {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     font-weight: lighter;
-    font-family: 'Karantina', sans-serif;
+    font-family: 'Karantina';
     font-size: 1.5em;
     transition: background-color 0.3s;
 }
@@ -94,32 +95,14 @@ button:hover {
 /*Para Smartphones*/
 @media screen and (max-device-width : 480px) {
     h1 {
-        font-family: 'Karantina', sans-serif;
-        color:#FCFDFE;
-        font-weight: lighter;
         font-size: 5em;
-        margin: 0;
-        padding: 0;
     }
     
     h2, h5{
-        font-family: 'Karantina', sans-serif;
-        color:#FCFDFE;
         font-size: 3em;
-        margin: 0;
-        padding: 0;
-        border-bottom: 4px solid #FCFDFE;
-        font-weight: lighter;
     }
     
     h3{
-        font-family: 'Karantina', sans-serif;
-        font-weight: lighter;
-        color:#FA3406;
-        font-weight: 300;
         font-size: 1.8em;
-        margin: 0;
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
     }
 }

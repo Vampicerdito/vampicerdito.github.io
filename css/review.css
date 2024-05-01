@@ -33,7 +33,7 @@
 
 .reviw-item, .review-elements{
     scroll-snap-align: start;
-    flex: 0 0 60%;
+    flex: 0 0 100%;
     display: flex;
     justify-content: center;
     align-items: center;
