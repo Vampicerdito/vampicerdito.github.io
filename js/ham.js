@@ -22,3 +22,11 @@ window.addEventListener('scroll', function() {
         navbar.classList.add("active");
     }
 });
+
+function descargarArchivo() {
+    const enlace = document.createElement('a');
+    enlace.href = 'docs/Niguel Cruz-Curriculum.pdf'; // Reemplaza con la ruta real del archivo
+    enlace.download = 'Niguel Cruz-Curriculum.pdf'; // Nombre del archivo que se descargará
+    enlace.click(); // Simula un clic en el enlace para iniciar la descarga
+}
+
