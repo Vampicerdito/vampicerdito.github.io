@@ -10,3 +10,15 @@ function manejarToggle(event) {
         menu.classList.remove("visible");
     }
 }
+
+const  navbar= document.querySelector("#navbar");
+// Escucha el evento de desplazamiento
+window.addEventListener('scroll', function() {
+    const scrollPosition = window.scrollY;
+    
+    if (scrollPosition === 0) {
+        navbar.classList.remove("active");
+    } else {
+        navbar.classList.add("active");
+    }
+});
