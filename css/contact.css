@@ -70,13 +70,20 @@
     border-radius: 5px;
     background-color: #131316;
     color: #FCFDFE;
-    border: 2px solid #FA3406;
+    border: none;
+    outline: 1px solid #F3732C;
     resize: none;
     max-lines: 6;
+    transition: 50ms;
 }
 
 .rigtht-section-contact textarea::placeholder, input::placeholder{
     font-family: Karla;
+}
+
+.rigtht-section-contact textarea:focus, input:focus{
+    transition: 50ms;
+    outline: 4px solid #FA3406;
 }
 
 .rigtht-section-contact button {

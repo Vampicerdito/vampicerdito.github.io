@@ -44,20 +44,6 @@
     <link rel="stylesheet" href="css\separator.css">
     <link rel="stylesheet" href="css\loader.css">
     <link rel="stylesheet" href="css\ham_menu.css">
-    <script>
-        window.addEventListener('scroll', function() {
-            const element = document.querySelector('.navbar');
-            const elementPosition = element.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
-
-            if (elementPosition < windowHeight) {
-                element.classList.add('active');
-                }
-            else {
-            element.classList.remove('active');
-            }
-        });
-    </script>
     <title>Vamplancer - Freelancer Diseño y Desarrollo</title>
 </head>
     <body>
@@ -190,7 +176,7 @@
                     </div>
                 </div>  
             </div>
-            <button>VER MÁS</button>
+            <!--<button>VER MÁS</button>-->
         </section>
 
         <section id="separator">
@@ -339,12 +325,16 @@
                     <img src="/img/Logo vamp.png" loading="lazy">
                 </div>
                 <div class="rigtht-section-contact">
-                    <form>  
+                    <form action="https://formsubmit.co/niguelcruzz2@gmail.com" method="POST">  
                         <label for="email">EMAIL</label>
                         <input type="email" placeholder="ejemplo@email.com" name="email" autocomplete="on">
                         <label for="mensaje">MENSAJE</label>
                         <textarea placeholder="Escriba su mensaje aqui" rows="6" name="mensaje" autocomplete="off"></textarea>
-                        <button type="submit">ENVIAR</button>
+                        <button type="POST">ENVIAR</button>
+
+                        <input type="hidden" name="_next" value="https://vampicerdito.github.io/">
+
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                     </script>
                     <div class="social">
