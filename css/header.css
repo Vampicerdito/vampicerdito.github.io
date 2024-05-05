@@ -4,7 +4,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background: url("/img/blue-smoke.png"),linear-gradient(to bottom, #080F18, #08111B);
+    background: url("/img/fondo-head.webp"),linear-gradient(to bottom, #080F18, #08111B);
     background-blend-mode: color-dodge;
     background-size: cover;
     background-repeat: no-repeat;

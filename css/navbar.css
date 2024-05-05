@@ -128,7 +128,7 @@
         padding-top: 7rem;
         transform: translateX(100%);
         height: 100vmax;
-        width: 80%;
+        width: 60%;
         box-shadow: 0 0 0 100vmax #FA340600;
         transition: 0.5s;
         z-index: 9999;

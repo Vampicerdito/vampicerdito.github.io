@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: url("/img/galaxia-con-muchas-estrellas.png"),linear-gradient(to bottom, #080F18, #081420, #00010B);
+    background: url("/img/fondo-body.webp"),linear-gradient(to bottom, #080F18, #081420, #00010B);
     background-blend-mode: color-dodge;
     background-size:contain;
     background-repeat: no-repeat;
