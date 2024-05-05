@@ -14,15 +14,14 @@
     border-radius: 15px 15px 0 0;
     display: block;
     height: 40vh;
-    background-size: 35vw;
+    background-size: 100%;
     background-position: center;
-    background-size: cover;
-    transition: all 0.5s;
 }
 
 .portafolio-item-header:hover{
-    background-size: 50vw;
+    background-size: 120%;
     filter: saturate(0);
+    transition: 0.5s;
 }
 
 .portafolio-item-body {
@@ -33,13 +32,8 @@
 }
 
 .portafolio-item-body p {
-    color: #777;
+    color: #353535;
     font-size: 0.9em;
-}
-
-.portafolio-item-body button {
-    padding: 2px 70px;
-    border-radius: 5px;
 }
 
 /*Para Smartphones*/

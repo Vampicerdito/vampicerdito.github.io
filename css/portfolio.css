@@ -4,12 +4,29 @@
     justify-content: center;
 }
 
-#portfolio button{
-    margin: 2% auto;
-}
-
 .Elementos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.a-btn{
+    background-color: #F3732C;
+    color: #FCFDFE;
+    padding: 2px 70px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-style: normal;
+    margin: 2% auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-weight: lighter;
+    font-family: 'Karantina';
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+}
+
+.a-btn:hover{
+    background-color: #FA3406; /* Cambia el color al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el mouse */
 }
