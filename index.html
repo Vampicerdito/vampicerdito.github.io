@@ -20,13 +20,6 @@
     <meta property="og:title" content="VAMPLANCER - Freelancer Diseño y Desarrollo" />
     <meta property="og:description" content="Portafolio de un freelancer de diseño, desarrollo y edición con más de 5 años de experiencia en el medio" />
     <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
-
-    <!--Fonts-->
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">-->
-
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://metatags.io/" />
     <meta property="twitter:title" content="VAMPLANCER - Freelancer Diseño y Desarrollo" />
@@ -65,87 +58,32 @@
             }
         });
     </script>
-    <!--<script>
-        function pageLoaded() {
-            let loaderSection = document.querySelector('.loader-section');
-            loaderSection.classList.add('loaded');
-        }
-        document.onload = pageLoaded();
-    </script>-->
-    <!--<script>
-        // Espera a que se cargue todo el contenido de la página
-        window.addEventListener('load', function() {
-        // Oculta el loader
-            let loaderSection = document.querySelector('.loader-section');
-            loaderSection.classList.add('loaded');
-        });
-    </script>-->
     <title>Vamplancer - Freelancer Diseño y Desarrollo</title>
 </head>
     <body>
-        <!--<div class="loader-section">
-            <svg class="pl" width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-                <circle class="pl__ring1" cx="64" cy="64" r="60" fill="none" stroke="hsl(3,90%,55%)" stroke-width="8" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="377 377" stroke-dashoffset="-376.4"></circle>
-                <circle class="pl__ring2" cx="64" cy="64" r="52.5" fill="none" stroke="hsl(13,90%,55%)" stroke-width="7" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="329.9 329.9" stroke-dashoffset="-329.3"></circle>
-                <circle class="pl__ring3" cx="64" cy="64" r="46" fill="none" stroke="hsl(23,90%,55%)" stroke-width="6" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="289 289" stroke-dashoffset="-288.6"></circle>
-                <circle class="pl__ring4" cx="64" cy="64" r="40.5" fill="none" stroke="hsl(33,90%,55%)" stroke-width="5" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="254.5 254.5" stroke-dashoffset="-254"></circle>
-                <circle class="pl__ring5" cx="64" cy="64" r="36" fill="none" stroke="hsl(43,90%,55%)" stroke-width="4" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="226.2 226.2" stroke-dashoffset="-225.8"></circle>
-                <circle class="pl__ring6" cx="64" cy="64" r="32.5" fill="none" stroke="hsl(53,90%,55%)" stroke-width="3" transform="rotate(-90,64,64)" stroke-linecap="round" stroke-dasharray="204.2 204.2" stroke-dashoffset="-203.9"></circle>
-            </svg>
-        </div>-->
-        <div class="ham_menu">
-            <nav class="ham_menu--nav">
-                <label class="hamburger">
-                    <input type="checkbox" id="menuToggle">
-                    <svg viewBox="0 0 32 32">
-                        <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-                        <path class="line" d="M7 16 27 16"></path>
-                    </svg>
-                </label>
-                <ul>
-                    <li class="ham_menu--item"><a href="#header">Inicio</a></li>
-                    <li class="ham_menu--item"><a href="#about">Sobre mi</a></li>
-                    <li class="ham_menu--item"><a href="#portfolio">Portafolio</a></li>
-                    <li class="ham_menu--item"><a href="#prices">Precios</a></li>
-                    <li class="ham_menu--item"><a href="#reviews">Reseñas</a></li>
-                    <li class="ham_menu--item"><a href="#contact">Contactar</a></li>
+        <section id="navbar">
+            <div class="navbar-brand">
+                <img src="img/Porfile icon.png" alt="Logo" width="40" height="40"> <!-- Ajusta el  tamaño según sea necesario -->
+                <span>VAMPLANCER</span>
+            </div>
+            <label class="hamburger">
+                <input type="checkbox" id="miToggle">
+                <svg viewBox="0 0 32 32">
+                    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                    <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+            <nav class="menu" id="menu">
+                <ul class="menu-items">
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#prices">Precios</a></li>
+                    <li><a href="#reviews">Reseñas</a></li>
+                    <li><a href="#contact">Contactar</a></li>
                 </ul>
             </nav>
-        </div>
-        <nav id="navbar">
-            <div class="navbar">
-                <div class="navbar-brand">
-                    <img src="img/Porfile icon.png" alt="Logo" width="40" height="40"> <!-- Ajusta el  tamaño según sea necesario -->
-                    <span>VAMPLANCER</span>
-                </div>
-                <nav class="menu">
-                    <ul class="menu-items">
-                        <li><a href="#header">Inicio</a></li>
-                        <li><a href="#about">Sobre mi</a></li>
-                        <li><a href="#portfolio">Portafolio</a></li>
-                        <li><a href="#prices">Precios</a></li>
-                        <li><a href="#reviews">Reseñas</a></li>
-                        <li><a href="#contact">Contactar</a></li>
-                    </ul>
-                </nav>
-                <label class="hamburger">
-                    <input type="checkbox" id="menuToggle">
-                    <svg viewBox="0 0 32 32">
-                        <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-                        <path class="line" d="M7 16 27 16"></path>
-                    </svg>
-                </label>
-            </div>
-        </nav>
-
-        <div class="hamburguer-menu" >
-            <a href="#header">Inicio</a>
-            <a href="#about">Sobre mi</a>
-            <a href="#portfolio">Portafolio</a>
-            <a href="#prices">Precios</a>
-            <a href="#reviews">Reseñas</a>
-            <a href="#contact">Contactar</a>
-        </div>
+        </section>
 
         <!-- Sección del Encabezado -->
         <header id="header">
@@ -437,5 +375,6 @@
                 <p>vamplancer ® 2024</p>
             </div>
         </footer>
+        <script src="/js/ham.js"></script>
     </body>
 </html>
