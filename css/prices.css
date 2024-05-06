@@ -27,16 +27,6 @@
     justify-content: center;
 }
 
-.price-end{
-    display: flex;
-    align-items: center;
-}
-
-.price-end img{
-    width: 40%;
-    filter: invert(31%) sepia(86%) saturate(3914%) hue-rotate(356deg) brightness(96%) contrast(105%);
-}
-
 .tarjetas h2{
     border: none;
 }
@@ -64,10 +54,6 @@
 .info{
     display: flex;
     margin: 15px;
-}
-
-.price-end span{
-    width: 40%;
 }
 
 #prices button{
