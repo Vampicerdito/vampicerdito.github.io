@@ -28,7 +28,7 @@
     background: linear-gradient(to left,#0A0A15, #0C0B12, #fa3306c0 180%);
     box-shadow: 10PX 0px 6px #0002;
     height: fit-content;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .reviw-item, .review-elements{
